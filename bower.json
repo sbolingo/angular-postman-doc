@@ -3,9 +3,33 @@
   "description": "Angular directive to display html documentation from a postman collection.",
   "version": "0.0.0",
   "license": "MIT",
-  "private": true,
+  "private": false,
+  "ignore": [
+    "bin",
+    "dev"
+  ],
+  "keywords": [
+    "angular",
+    "postman",
+    "html",
+    "documentation",
+    "doc",
+    "view"
+  ],
+  "authors": [
+    "kisiwu <sbolingo@outlook.com>",
+    "demingongo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sbolingo/angular-postman-doc.git"
+  },
   "dependencies": {
     "angular": "1.6.x",
     "jquery": "^3.1.1"
+  },
+  "resolutions": {
+    "angular": ">=1.3.0",
+    "jquery": ">=2.1.1"
   }
 }
