@@ -1,0 +1,182 @@
+
+.novice.novice-postman pre.raw.novice.novice-postman {
+  border-radius: 0;
+  border: none;
+  border-right: 1px solid #222;
+  color: #fff;
+  background-color: #18171b;
+  padding: 1em;
+  font-size: 14px;
+
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.novice.novice-postman table.table-request td.url {
+  word-wrap: break-word;
+}
+
+.novice.novice-postman .table-request td:first-child {
+    font-weight: bold;
+    width: 15%;
+}
+
+.novice.novice-postman .table-request .description.novice.novice-postman {
+    color: #999;
+}
+
+.novice.novice-postman .table-request span.method {
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.method{
+  font-weight: bold;
+}
+
+.method.get {
+    color: green;
+}
+
+.method.post {
+    color: orange;
+}
+
+.method.put {
+    color: blue;
+}
+
+.method.delete {
+    color: red;
+}
+
+.postman-collection-folders{
+  position: relative;
+}
+
+.postman-collection-folders .postman-folder .postman-request .method{
+  width: 30px;
+  position: absolute;
+  line-height: 1.1;
+  text-align: right;
+}
+
+.postman-collection-folders .postman-folder .postman-request .method span{
+  font-size: 9px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.postman-collection-folders .postman-folder .postman-request .postman-request-name{
+  padding-left: 40px;
+}
+
+.novice.novice-postman .table-request .method {
+  text-transform: uppercase;
+}
+
+.novice.novice-postman.description table,
+.novice.novice-postman.description table thead tr th,
+.novice.novice-postman.description table tbody tr th,
+.novice.novice-postman.description table tfoot tr th,
+.novice.novice-postman.description table thead tr td,
+.novice.novice-postman.description table tbody tr td,
+.novice.novice-postman.description table tfoot tr td
+{
+  border: 1px solid #ddd;
+}
+
+.novice.novice-postman.description table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.novice.novice-postman.description table thead tr th,
+.novice.novice-postman.description table tbody tr th,
+.novice.novice-postman.description table tfoot tr th,
+.novice.novice-postman.description table thead tr td,
+.novice.novice-postman.description table tbody tr td,
+.novice.novice-postman.description table tfoot tr td
+{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.novice.novice-postman.description table thead tr td,
+.novice.novice-postman.description table tbody tr td,
+.novice.novice-postman.description table tfoot tr td
+{
+  font-weight: lighter;
+}
+
+.novice.novice-postman.description table thead tr th,
+.novice.novice-postman.description table tbody tr th,
+.novice.novice-postman.description table tfoot tr th
+{
+  text-align: center;
+}
+
+pre.raw.novice.novice-postman .c1 {
+    color: #b729d9;
+    font-style: italic;
+}
+pre.raw.novice.novice-postman .o {
+    color: #e67700;
+}
+pre.raw.novice.novice-postman .k {
+    color: #ff8400;
+}
+pre.raw.novice.novice-postman .mi {
+    color: #1299da;
+}
+pre.raw.novice.novice-postman .nc, pre.raw.novice.novice-postman .nf, pre.raw.novice.novice-postman .nv, pre.raw.novice.novice-postman .nx  {
+    color: #fff;
+}
+pre.raw.novice.novice-postman .p {
+    color: #939393;
+}
+pre.raw.novice.novice-postman .s, pre.raw.novice.novice-postman .s1 {
+    color: #56db3a;
+}
+pre.raw.novice.novice-postman .sd {
+    color: #b729d9;
+    font-style: italic;
+}
+
+
+/** icomoon **/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?h3jgns');
+  src:  url('../fonts/icomoon.eot?h3jgns#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?h3jgns') format('truetype'),
+    url('../fonts/icomoon.woff?h3jgns') format('woff'),
+    url('../fonts/icomoon.svg?h3jgns#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-folder:before {
+  content: "\e92f";
+}
+.icon-folder-open:before {
+  content: "\e930";
+}
