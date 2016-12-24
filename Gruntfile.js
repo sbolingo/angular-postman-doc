@@ -24,9 +24,9 @@ module.exports = function(grunt) {
 
   jsdoc: {
 		dist: {
-	      src: ['./app/js/angular/**/*.js'],
+	      src: ['./dev/dist/**/*.js'],
 	      options: {
-	        destination: 'build/docs',
+	        destination: './docs',
 	        configure: 'node_modules/angular-jsdoc/common/conf.json',
 	        template: 'node_modules/angular-jsdoc/angular-template',
 	        tutorial: 'tutorials',
