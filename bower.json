@@ -1,7 +1,7 @@
 {
   "name": "angular-postman-doc",
   "description": "Angular directive to display html documentation from a postman collection.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "private": false,
   "ignore": [

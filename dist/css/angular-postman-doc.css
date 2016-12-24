@@ -15,8 +15,16 @@
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
-.novice.novice-postman table.table-request td.url {
+.dont-break-out, .novice.novice-postman table.table-request td.url {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
   word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
 }
 
 .novice.novice-postman .table-request td:first-child {
@@ -68,6 +76,7 @@
   font-size: 9px;
   font-weight: 700;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .postman-collection-folders .postman-folder .postman-request .postman-request-name{

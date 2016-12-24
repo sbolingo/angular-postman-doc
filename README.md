@@ -1,2 +1,2 @@
 # angular-postman-doc
-Angular directive to display html documentation from a postman collection
+Angular module to handle a Postman collection and render html documentation. Only handles v1 collection format.

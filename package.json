@@ -1,8 +1,8 @@
 {
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "name": "angular-postman-doc",
-  "description": "Angular directive to display html documentation from a postman collection.",
+  "description": "Angular module to handle a Postman collection and render html documentation. Only handles v1 collection format.",
   "license": "MIT",
   "devDependencies": {
     "angular-jsdoc": "^1.5.0",
